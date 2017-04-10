@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,300,300italic,400italic,600,600italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+body {
+    margin: 0;
+}
+p {    
+    font-size: 14px;
+}
+.gallery img {
+    padding: 20px;
+}
+.gallery, .form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form h2 {
+    padding-bottom: 10px;
+}
+.navbar-default {
+	background-color: white;
+	border: none;
+	margin: 0;
+	border-radius: 2;
+	box-shadow: 0px -8px 0px 0px rgba(255,255,255,0.2);
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	border-bottom: blue 3px solid;
+}
+.navbar-default .navbar-nav>.active>a {
+	border-bottom: blue 3px solid;
+	background-color: white;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: white;
+}
+.heading .navbar-default .input-group {
+	padding-top: 1%;
+}
+.heading .navbar-header {
+	padding-top: 2px;
+}
+.heading .navbar-default {
+	padding: 1%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.jumbotron {
+    background: url(https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;      
+}
+.jumbotron small {
+	color: #FFF;
+}
+.jumbotron h1 {
+    font-size: 600%;
+    text-transform: uppercase;
+    color: #FFF;
+    font-style: normal;
+    text-shadow: 2px 2px 0 rgba(0,0,0.3);
+    font-weight: 800;
+    font-family: 'Raleway';
+    line-height: 84px;
+    letter-spacing: 1mm;
+    margin-top: 20%;
+    padding-top: 2%;
+}
+.jumbotron h2 {
+	letter-spacing: -2px;
+	color: #FFFF33;
+	line-height: 1px;
+}
+.jumbotron h6 {
+	color: #FFF;
+	text-align: center;
+	font-size: 200%;
+	font-weight: 100;
+	font-family: 'Raleway';
+	padding-bottom: 2%;
+	padding-top: 1%;
+}
+.jumbo-text {
+	background: rgba(0, 0, 0, 0.4);
+}
+.gallery-2 {
+	padding-bottom: 200px;
+}
+.media img {
+	height: 30%;
+	width: 100%;
+}
+.media {
+	margin-top: 0;
+}
+h4.media-heading {
+	font-family: 'Raleway';
+	padding-top: 1%;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-style: normal;
+}
+.media h2 {
+	letter-spacing: -2px;
+	color: #FFCC33;
+	line-height: 1px;
+}
+.media-body p {
+	padding-top: 3%;
+	padding-right: 2%;
+	font-family: 'Open Sans';
+	font-weight: 100;
+}
+.media-body {
+	padding-left: 7%;
+	background-color: #FCFCFC;
+}
+.chart {
+	padding-top: 8%;
+	padding-bottom: 5%;
+}
